@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		17104A61283E907200DAAFC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A60283E907200DAAFC1 /* AppDelegate.swift */; };
 		17104A63283E907200DAAFC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A62283E907200DAAFC1 /* SceneDelegate.swift */; };
-		17104A65283E907200DAAFC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A64283E907200DAAFC1 /* ViewController.swift */; };
+		17104A65283E907200DAAFC1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A64283E907200DAAFC1 /* HomeViewController.swift */; };
 		17104A68283E907200DAAFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17104A66283E907200DAAFC1 /* Main.storyboard */; };
 		17104A6A283E907400DAAFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17104A69283E907400DAAFC1 /* Assets.xcassets */; };
 		17104A6D283E907400DAAFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17104A6B283E907400DAAFC1 /* LaunchScreen.storyboard */; };
 		17104A78283E907500DAAFC1 /* WallapopCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A77283E907500DAAFC1 /* WallapopCodingChallengeTests.swift */; };
 		17104A82283E907500DAAFC1 /* WallapopCodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A81283E907500DAAFC1 /* WallapopCodingChallengeUITests.swift */; };
 		17104A84283E907500DAAFC1 /* WallapopCodingChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A83283E907500DAAFC1 /* WallapopCodingChallengeUITestsLaunchTests.swift */; };
+		17104A92283E9CA900DAAFC1 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A91283E9CA900DAAFC1 /* Credentials.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		17104A5D283E907200DAAFC1 /* WallapopCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallapopCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17104A60283E907200DAAFC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17104A62283E907200DAAFC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17104A64283E907200DAAFC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17104A64283E907200DAAFC1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		17104A67283E907200DAAFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17104A69283E907400DAAFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17104A6C283E907400DAAFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		17104A7D283E907500DAAFC1 /* WallapopCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallapopCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17104A81283E907500DAAFC1 /* WallapopCodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallapopCodingChallengeUITests.swift; sourceTree = "<group>"; };
 		17104A83283E907500DAAFC1 /* WallapopCodingChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallapopCodingChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17104A91283E9CA900DAAFC1 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,12 @@
 		17104A5F283E907200DAAFC1 /* WallapopCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				17104A95283E9D2E00DAAFC1 /* Model */,
+				17104A94283E9D2900DAAFC1 /* View */,
+				17104A93283E9D2300DAAFC1 /* ViewModel */,
+				17104A90283E9C9500DAAFC1 /* Resources */,
 				17104A60283E907200DAAFC1 /* AppDelegate.swift */,
 				17104A62283E907200DAAFC1 /* SceneDelegate.swift */,
-				17104A64283E907200DAAFC1 /* ViewController.swift */,
 				17104A66283E907200DAAFC1 /* Main.storyboard */,
 				17104A69283E907400DAAFC1 /* Assets.xcassets */,
 				17104A6B283E907400DAAFC1 /* LaunchScreen.storyboard */,
@@ -125,6 +130,36 @@
 				17104A83283E907500DAAFC1 /* WallapopCodingChallengeUITestsLaunchTests.swift */,
 			);
 			path = WallapopCodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+		17104A90283E9C9500DAAFC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17104A91283E9CA900DAAFC1 /* Credentials.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		17104A93283E9D2300DAAFC1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		17104A94283E9D2900DAAFC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17104A64283E907200DAAFC1 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17104A95283E9D2E00DAAFC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17104A65283E907200DAAFC1 /* ViewController.swift in Sources */,
+				17104A65283E907200DAAFC1 /* HomeViewController.swift in Sources */,
 				17104A61283E907200DAAFC1 /* AppDelegate.swift in Sources */,
+				17104A92283E9CA900DAAFC1 /* Credentials.swift in Sources */,
 				17104A63283E907200DAAFC1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
