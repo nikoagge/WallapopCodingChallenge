@@ -304,10 +304,10 @@
 			isa = PBXGroup;
 			children = (
 				17104A64283E907200DAAFC1 /* HomeViewController.swift */,
-				17153CE4284267FF00D91A0B /* HomeViewController+UI.swift */,
 				17153CE6284268CF00D91A0B /* HomeViewController+Configuration+Functionality.swift */,
-				17153CE828426EB400D91A0B /* HomeViewController+UITableViewDataSource+UITableViewDelegate.swift */,
+				17153CE4284267FF00D91A0B /* HomeViewController+UI.swift */,
 				17153CEF284291A100D91A0B /* HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift */,
+				17153CE828426EB400D91A0B /* HomeViewController+UITableViewDataSource+UITableViewDelegate.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
