@@ -20,7 +20,7 @@ extension NavigableViewController {
         switch navigationItem.pageType {
         case .viewControllers(let viewControllers): controllersToInitialNavigation = viewControllers
         case .viewController(let viewController): controllerToNavigate = viewController
-        case .detailViewController: controllerToNavigate = DetailViewController()
+        case .detailViewController(let catalogDetailViewModel): controllerToNavigate = DetailViewController(with: catalogDetailViewModel)
         }
 
         if let controllerToNavigate = controllerToNavigate {

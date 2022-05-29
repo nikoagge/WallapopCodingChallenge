@@ -27,7 +27,7 @@ private extension DetailViewController {
     }
     
     func setupMarvelCharacterImageView() {
-        marvelCharacterImageView.contentMode = .scaleAspectFill
+        marvelCharacterImageViewConfiguration()
         containerView.addSubview(marvelCharacterImageView)
         NSLayoutConstraint.activate([
             marvelCharacterImageView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),

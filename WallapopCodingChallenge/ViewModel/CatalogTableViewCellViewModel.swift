@@ -5,7 +5,7 @@
 //  Created by Nikos Aggelidis on 28/5/22.
 //
 
-import Foundation
+import UIKit
 
 class CatalogTableViewCellViewModel {
     var marvelService: MarvelService!

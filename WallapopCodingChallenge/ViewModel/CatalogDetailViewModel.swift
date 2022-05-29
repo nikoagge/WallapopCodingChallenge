@@ -20,7 +20,7 @@ class CatalogDetailViewModel {
         return marvelCharacter.name
     }
     
-    func characterDescription() -> String {
+    func marvelCharacterDescription() -> String {
         return marvelCharacter.description
     }
     

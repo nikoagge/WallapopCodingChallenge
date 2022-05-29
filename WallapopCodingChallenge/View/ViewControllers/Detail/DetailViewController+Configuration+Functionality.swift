@@ -13,14 +13,19 @@ extension DetailViewController {
         containerView.backgroundColor = .white
     }
     
+    func marvelCharacterImageViewConfiguration() {
+        marvelCharacterImageView.contentMode = .scaleAspectFill
+        marvelCharacterImageView.download(from: self.catalogDetailViewModel.thumbnailURL)
+    }
+    
     func marvelCharacterNameLabelConfiguration() {
-        marvelCharacterNameLabel.text = "Character name"
+        marvelCharacterNameLabel.text = catalogDetailViewModel.marvelCharacterName()
         marvelCharacterNameLabel.textColor = .black
         marvelCharacterNameLabel.font = .systemFont(ofSize: 17)
     }
     
     func marvelCharacterDescriptionLabelConfiguration() {
-        marvelCharacterDescriptionLabel.text = "Character description"
+        marvelCharacterDescriptionLabel.text = catalogDetailViewModel.marvelCharacterDescription()
         marvelCharacterDescriptionLabel.textColor = .black
         marvelCharacterDescriptionLabel.font = .systemFont(ofSize: 17)
     }
