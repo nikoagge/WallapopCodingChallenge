@@ -85,7 +85,6 @@ class APIConfiguration {
         let timestamp = String(Date().timeIntervalSince1970 * 1000)
         
         return APIParameters()
-            .limit(100)
             .hash(timestamp: timestamp, privateKey: privateKey, publicKey: publicKey)
             .timestamp(timestamp)
             .apiKey(publicKey)

@@ -11,8 +11,7 @@ import Alamofire
 class APIParameters {
     private var parameters = Parameters()
     private let defaultParameters: Parameters = [
-        "limit": 100,
-        "orderBy": "-modified"
+        :
     ]
     
     init() {
@@ -26,13 +25,13 @@ class APIParameters {
     }
     
     func apiKey(_ apiKey: String) -> APIParameters {
-        parameters["apiKey"] = apiKey
+        parameters["apikey"] = apiKey
         
         return self
     }
     
     func timestamp(_ timeStamp: String) -> APIParameters {
-        parameters["timestamp"] = timeStamp
+        parameters["ts"] = timeStamp
         
         return self
     }
