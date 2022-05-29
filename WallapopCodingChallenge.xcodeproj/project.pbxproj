@@ -45,6 +45,7 @@
 		17BCECB828437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCECB728437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift */; };
 		17BCECBD28437D4F008248B5 /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCECBC28437D4F008248B5 /* NavigationItem.swift */; };
 		17BCECBF28437D8D008248B5 /* NavigableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCECBE28437D8D008248B5 /* NavigableViewController.swift */; };
+		17BCECC128439336008248B5 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCECC028439336008248B5 /* UIFont+Extension.swift */; };
 		17E8F8D6283FD78D00B69A8E /* APIConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 17E8F8D5283FD78D00B69A8E /* APIConfiguration.json */; };
 		17E8F8D8283FD7AA00B69A8E /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F8D7283FD7AA00B69A8E /* APIConfiguration.swift */; };
 		17E8F8DA283FE21800B69A8E /* APIParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F8D9283FE21800B69A8E /* APIParameters.swift */; };
@@ -114,6 +115,7 @@
 		17BCECB728437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+Configuration+Functionality.swift"; sourceTree = "<group>"; };
 		17BCECBC28437D4F008248B5 /* NavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
 		17BCECBE28437D8D008248B5 /* NavigableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigableViewController.swift; sourceTree = "<group>"; };
+		17BCECC028439336008248B5 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		17E8F8D5283FD78D00B69A8E /* APIConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = APIConfiguration.json; sourceTree = "<group>"; };
 		17E8F8D7283FD7AA00B69A8E /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
 		17E8F8D9283FE21800B69A8E /* APIParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIParameters.swift; sourceTree = "<group>"; };
@@ -294,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				17153CD82842318C00D91A0B /* String+Extension.swift */,
+				17BCECC028439336008248B5 /* UIFont+Extension.swift */,
 				17153CED284284DD00D91A0B /* UIImageView+Extension.swift */,
 				17153CE12842530900D91A0B /* UIView+Extension.swift */,
 			);
@@ -626,6 +629,7 @@
 				17153CD92842318C00D91A0B /* String+Extension.swift in Sources */,
 				17BCECBD28437D4F008248B5 /* NavigationItem.swift in Sources */,
 				17153CE928426EB400D91A0B /* HomeViewController+UITableViewDataSource+UITableViewDelegate.swift in Sources */,
+				17BCECC128439336008248B5 /* UIFont+Extension.swift in Sources */,
 				17153CCE28421F6700D91A0B /* Stories.swift in Sources */,
 				17BCECB828437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift in Sources */,
 				17153CC328420E2A00D91A0B /* MarvelCharacter.swift in Sources */,
