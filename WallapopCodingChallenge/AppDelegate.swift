@@ -12,6 +12,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        showHomeViewController()
+        
+        return true
+    }
+}
+
+// MARK: - Functionality
+private extension AppDelegate {
+    func showHomeViewController() {
         window = UIWindow()
         let homeViewController = HomeViewController(with: CatalogViewModel(
             marvelService: MarvelService(
@@ -20,7 +29,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ))
         window?.rootViewController = UINavigationController(rootViewController: homeViewController)
         window?.makeKeyAndVisible()
-        
-        return true
     }
 }
