@@ -40,6 +40,9 @@
 		17153CEC284276D200D91A0B /* CatalogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17153CEB284276D200D91A0B /* CatalogTableViewCell.swift */; };
 		17153CEE284284DD00D91A0B /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17153CED284284DD00D91A0B /* UIImageView+Extension.swift */; };
 		17153CF0284291A100D91A0B /* HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17153CEF284291A100D91A0B /* HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift */; };
+		1783AA162843726800CD04FC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783AA152843726800CD04FC /* DetailViewController.swift */; };
+		17BCECB628437A85008248B5 /* DetailViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCECB528437A85008248B5 /* DetailViewController+UI.swift */; };
+		17BCECB828437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCECB728437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift */; };
 		17E8F8D6283FD78D00B69A8E /* APIConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 17E8F8D5283FD78D00B69A8E /* APIConfiguration.json */; };
 		17E8F8D8283FD7AA00B69A8E /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F8D7283FD7AA00B69A8E /* APIConfiguration.swift */; };
 		17E8F8DA283FE21800B69A8E /* APIParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F8D9283FE21800B69A8E /* APIParameters.swift */; };
@@ -104,6 +107,9 @@
 		17153CED284284DD00D91A0B /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		17153CEF284291A100D91A0B /* HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift"; sourceTree = "<group>"; };
 		1783AA1028435CCF00CD04FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1783AA152843726800CD04FC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		17BCECB528437A85008248B5 /* DetailViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+UI.swift"; sourceTree = "<group>"; };
+		17BCECB728437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+Configuration+Functionality.swift"; sourceTree = "<group>"; };
 		17E8F8D5283FD78D00B69A8E /* APIConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = APIConfiguration.json; sourceTree = "<group>"; };
 		17E8F8D7283FD7AA00B69A8E /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
 		17E8F8D9283FE21800B69A8E /* APIParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIParameters.swift; sourceTree = "<group>"; };
@@ -292,6 +298,7 @@
 		17153CDA284233B000D91A0B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1783AA142843711300CD04FC /* Detail */,
 				17153CE3284267ED00D91A0B /* Home */,
 			);
 			path = ViewControllers;
@@ -315,6 +322,16 @@
 				17153CEB284276D200D91A0B /* CatalogTableViewCell.swift */,
 			);
 			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		1783AA142843711300CD04FC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				1783AA152843726800CD04FC /* DetailViewController.swift */,
+				17BCECB728437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift */,
+				17BCECB528437A85008248B5 /* DetailViewController+UI.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		17E8F8D1283FD62200B69A8E /* API */ = {
@@ -587,6 +604,7 @@
 				17153CD92842318C00D91A0B /* String+Extension.swift in Sources */,
 				17153CE928426EB400D91A0B /* HomeViewController+UITableViewDataSource+UITableViewDelegate.swift in Sources */,
 				17153CCE28421F6700D91A0B /* Stories.swift in Sources */,
+				17BCECB828437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift in Sources */,
 				17153CC328420E2A00D91A0B /* MarvelCharacter.swift in Sources */,
 				17153CC528421A3300D91A0B /* Thumbnail.swift in Sources */,
 				17153CC828421CCF00D91A0B /* ThumbnailType.swift in Sources */,
@@ -600,6 +618,8 @@
 				17153CCC28421F0400D91A0B /* Series.swift in Sources */,
 				17104A92283E9CA900DAAFC1 /* Credentials.swift in Sources */,
 				17153CD428422EA200D91A0B /* MarvelURL.swift in Sources */,
+				17BCECB628437A85008248B5 /* DetailViewController+UI.swift in Sources */,
+				1783AA162843726800CD04FC /* DetailViewController.swift in Sources */,
 				17153CD628422EDE00D91A0B /* Resource.swift in Sources */,
 				17E8F8D8283FD7AA00B69A8E /* APIConfiguration.swift in Sources */,
 				17153CE0284244F200D91A0B /* CatalogDetailViewModel.swift in Sources */,
