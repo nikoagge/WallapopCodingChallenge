@@ -21,3 +21,4 @@ private extension DetailViewController {
         view.addSubview(containerView)
         containerView.fillToSuperview()
     }
+}

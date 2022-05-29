@@ -43,6 +43,8 @@
 		1783AA162843726800CD04FC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783AA152843726800CD04FC /* DetailViewController.swift */; };
 		17BCECB628437A85008248B5 /* DetailViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCECB528437A85008248B5 /* DetailViewController+UI.swift */; };
 		17BCECB828437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCECB728437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift */; };
+		17BCECBD28437D4F008248B5 /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCECBC28437D4F008248B5 /* NavigationItem.swift */; };
+		17BCECBF28437D8D008248B5 /* NavigableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCECBE28437D8D008248B5 /* NavigableViewController.swift */; };
 		17E8F8D6283FD78D00B69A8E /* APIConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 17E8F8D5283FD78D00B69A8E /* APIConfiguration.json */; };
 		17E8F8D8283FD7AA00B69A8E /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F8D7283FD7AA00B69A8E /* APIConfiguration.swift */; };
 		17E8F8DA283FE21800B69A8E /* APIParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F8D9283FE21800B69A8E /* APIParameters.swift */; };
@@ -110,6 +112,8 @@
 		1783AA152843726800CD04FC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		17BCECB528437A85008248B5 /* DetailViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+UI.swift"; sourceTree = "<group>"; };
 		17BCECB728437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+Configuration+Functionality.swift"; sourceTree = "<group>"; };
+		17BCECBC28437D4F008248B5 /* NavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
+		17BCECBE28437D8D008248B5 /* NavigableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigableViewController.swift; sourceTree = "<group>"; };
 		17E8F8D5283FD78D00B69A8E /* APIConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = APIConfiguration.json; sourceTree = "<group>"; };
 		17E8F8D7283FD7AA00B69A8E /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
 		17E8F8D9283FE21800B69A8E /* APIParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIParameters.swift; sourceTree = "<group>"; };
@@ -179,6 +183,7 @@
 				17E8F8D1283FD62200B69A8E /* API */,
 				17153CC628421A8A00D91A0B /* Enums */,
 				17153CD72842317B00D91A0B /* Extensions */,
+				17BCECB928437C2E008248B5 /* Managers */,
 				17104A95283E9D2E00DAAFC1 /* Model */,
 				17104A94283E9D2900DAAFC1 /* View */,
 				17104A93283E9D2300DAAFC1 /* ViewModel */,
@@ -332,6 +337,23 @@
 				17BCECB528437A85008248B5 /* DetailViewController+UI.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		17BCECB928437C2E008248B5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				17BCECBB28437D42008248B5 /* Navigation */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		17BCECBB28437D42008248B5 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				17BCECBC28437D4F008248B5 /* NavigationItem.swift */,
+				17BCECBE28437D8D008248B5 /* NavigableViewController.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		17E8F8D1283FD62200B69A8E /* API */ = {
@@ -602,6 +624,7 @@
 				17153CDC284233CE00D91A0B /* CatalogViewModel.swift in Sources */,
 				17E8F8DA283FE21800B69A8E /* APIParameters.swift in Sources */,
 				17153CD92842318C00D91A0B /* String+Extension.swift in Sources */,
+				17BCECBD28437D4F008248B5 /* NavigationItem.swift in Sources */,
 				17153CE928426EB400D91A0B /* HomeViewController+UITableViewDataSource+UITableViewDelegate.swift in Sources */,
 				17153CCE28421F6700D91A0B /* Stories.swift in Sources */,
 				17BCECB828437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift in Sources */,
@@ -609,6 +632,7 @@
 				17153CC528421A3300D91A0B /* Thumbnail.swift in Sources */,
 				17153CC828421CCF00D91A0B /* ThumbnailType.swift in Sources */,
 				17104A65283E907200DAAFC1 /* HomeViewController.swift in Sources */,
+				17BCECBF28437D8D008248B5 /* NavigableViewController.swift in Sources */,
 				17153CC128420B6300D91A0B /* MarvelData.swift in Sources */,
 				17153CE5284267FF00D91A0B /* HomeViewController+UI.swift in Sources */,
 				17104A61283E907200DAAFC1 /* AppDelegate.swift in Sources */,
