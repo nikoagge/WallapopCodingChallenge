@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		17104A61283E907200DAAFC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A60283E907200DAAFC1 /* AppDelegate.swift */; };
-		17104A63283E907200DAAFC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A62283E907200DAAFC1 /* SceneDelegate.swift */; };
 		17104A65283E907200DAAFC1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A64283E907200DAAFC1 /* HomeViewController.swift */; };
 		17104A6A283E907400DAAFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17104A69283E907400DAAFC1 /* Assets.xcassets */; };
 		17104A6D283E907400DAAFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17104A6B283E907400DAAFC1 /* LaunchScreen.storyboard */; };
@@ -70,11 +69,9 @@
 		0F0FAD2F94DAB6D15529B286 /* Pods-WallapopCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallapopCodingChallenge.release.xcconfig"; path = "Target Support Files/Pods-WallapopCodingChallenge/Pods-WallapopCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		17104A5D283E907200DAAFC1 /* WallapopCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallapopCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17104A60283E907200DAAFC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17104A62283E907200DAAFC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		17104A64283E907200DAAFC1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		17104A69283E907400DAAFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17104A6C283E907400DAAFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		17104A6E283E907400DAAFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17104A73283E907500DAAFC1 /* WallapopCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallapopCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17104A77283E907500DAAFC1 /* WallapopCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallapopCodingChallengeTests.swift; sourceTree = "<group>"; };
 		17104A7D283E907500DAAFC1 /* WallapopCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallapopCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +103,7 @@
 		17153CEB284276D200D91A0B /* CatalogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableViewCell.swift; sourceTree = "<group>"; };
 		17153CED284284DD00D91A0B /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		17153CEF284291A100D91A0B /* HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift"; sourceTree = "<group>"; };
+		1783AA1028435CCF00CD04FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17E8F8D5283FD78D00B69A8E /* APIConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = APIConfiguration.json; sourceTree = "<group>"; };
 		17E8F8D7283FD7AA00B69A8E /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
 		17E8F8D9283FE21800B69A8E /* APIParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIParameters.swift; sourceTree = "<group>"; };
@@ -180,9 +178,8 @@
 				17104A93283E9D2300DAAFC1 /* ViewModel */,
 				17104A90283E9C9500DAAFC1 /* Resources */,
 				17104A60283E907200DAAFC1 /* AppDelegate.swift */,
-				17104A62283E907200DAAFC1 /* SceneDelegate.swift */,
 				17104A6B283E907400DAAFC1 /* LaunchScreen.storyboard */,
-				17104A6E283E907400DAAFC1 /* Info.plist */,
+				1783AA1028435CCF00CD04FC /* Info.plist */,
 			);
 			path = WallapopCodingChallenge;
 			sourceTree = "<group>";
@@ -614,7 +611,6 @@
 				17153CEC284276D200D91A0B /* CatalogTableViewCell.swift in Sources */,
 				17153CBC284207C800D91A0B /* MarvelService.swift in Sources */,
 				17153CE22842530900D91A0B /* UIView+Extension.swift in Sources */,
-				17104A63283E907200DAAFC1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

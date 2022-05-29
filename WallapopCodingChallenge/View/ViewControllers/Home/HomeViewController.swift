@@ -18,16 +18,21 @@ class HomeViewController: UIViewController {
     let activityIndicator = UIActivityIndicatorView(style: .large)
     let searchController = UISearchController(searchResultsController: nil)
     
+    init(with catalogViewModel: CatalogViewModel) {
+        super.init(nibName: nil, bundle: nil)
+        
+        self.catalogViewModel = catalogViewModel
+        fetchCharacters(offset: 0)
+    }
+    
+    @available(*, unavailable)
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        catalogViewModel = CatalogViewModel(
-            marvelService: MarvelService(
-                apiConfiguration: APIConfiguration.shared
-            )
-        )
-        
         setupUI()
-        fetchCharacters(offset: 0)
     }
 }
