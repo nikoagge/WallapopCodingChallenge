@@ -24,6 +24,7 @@ extension HomeViewController {
         activityIndicator.startAnimating()
         catalogViewModel.fetchMarvelCharacters(offset: offset, name: name) {
             self.view.hideActivityIndicator(self.activityIndicator)
+            self.hideNotFoundMessage()
             self.marvelCharactersTableView.reloadData()
         }
     }
@@ -43,5 +44,26 @@ extension HomeViewController {
                 self.view.layoutIfNeeded()
             }
         }
+    }
+    
+    func stackViewNotFoundConfiguration() {
+        stackViewNotFound.axis = .vertical
+        stackViewNotFound.alignment = .fill
+        stackViewNotFound.distribution = .fill
+        stackViewNotFound.spacing = 8
+    }
+    
+    func imageViewNotFoundConfiguration() {
+        imageViewNotFound.image = UIImage(named: "sad")
+        imageViewNotFound.contentMode = .scaleAspectFit
+    }
+    
+    func labelNotFoundConfiguration() {
+        labelNotFound.text = "Can't find characters with your terms."
+        labelNotFound.textColor = .labelNotFoundTextColor
+        labelNotFound.font = .makeSystem(22, .regular)
+        labelNotFound.textAlignment = .center
+        labelNotFound.numberOfLines = 0
+        labelNotFound.lineBreakMode = .byWordWrapping
     }
 }

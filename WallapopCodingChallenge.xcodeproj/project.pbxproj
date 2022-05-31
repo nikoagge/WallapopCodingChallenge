@@ -40,6 +40,7 @@
 		17153CEC284276D200D91A0B /* CatalogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17153CEB284276D200D91A0B /* CatalogTableViewCell.swift */; };
 		17153CEE284284DD00D91A0B /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17153CED284284DD00D91A0B /* UIImageView+Extension.swift */; };
 		17153CF0284291A100D91A0B /* HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17153CEF284291A100D91A0B /* HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift */; };
+		1732C79B2846672D0032E1C6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1732C79A2846672D0032E1C6 /* UIColor+Extension.swift */; };
 		1783AA162843726800CD04FC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783AA152843726800CD04FC /* DetailViewController.swift */; };
 		17BCECB628437A85008248B5 /* DetailViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCECB528437A85008248B5 /* DetailViewController+UI.swift */; };
 		17BCECB828437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCECB728437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift */; };
@@ -109,6 +110,7 @@
 		17153CEB284276D200D91A0B /* CatalogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableViewCell.swift; sourceTree = "<group>"; };
 		17153CED284284DD00D91A0B /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		17153CEF284291A100D91A0B /* HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift"; sourceTree = "<group>"; };
+		1732C79A2846672D0032E1C6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		1783AA1028435CCF00CD04FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1783AA152843726800CD04FC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		17BCECB528437A85008248B5 /* DetailViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+UI.swift"; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				17153CD82842318C00D91A0B /* String+Extension.swift */,
+				1732C79A2846672D0032E1C6 /* UIColor+Extension.swift */,
 				17BCECC028439336008248B5 /* UIFont+Extension.swift */,
 				17153CED284284DD00D91A0B /* UIImageView+Extension.swift */,
 				17153CE12842530900D91A0B /* UIView+Extension.swift */,
@@ -655,6 +658,7 @@
 				17153CDE28423E9600D91A0B /* CatalogTableViewCellViewModel.swift in Sources */,
 				17153CBF28420AA000D91A0B /* MarvelCharacterResult.swift in Sources */,
 				17153CD228422E7900D91A0B /* MarvelURLType.swift in Sources */,
+				1732C79B2846672D0032E1C6 /* UIColor+Extension.swift in Sources */,
 				17153CD028422E0400D91A0B /* Events.swift in Sources */,
 				17153CEC284276D200D91A0B /* CatalogTableViewCell.swift in Sources */,
 				17153CBC284207C800D91A0B /* MarvelService.swift in Sources */,

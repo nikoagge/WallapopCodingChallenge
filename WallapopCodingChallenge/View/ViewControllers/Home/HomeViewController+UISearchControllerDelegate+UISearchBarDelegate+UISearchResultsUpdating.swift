@@ -29,8 +29,8 @@ extension HomeViewController: UISearchControllerDelegate, UISearchBarDelegate, U
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         if !searchBar.text!.isEmpty {
             searchBar.text = ""
-            self.hideNotFoundMessage()
-            self.fetchCharacters(offset: 0)
         }
+        self.hideNotFoundMessage()
+        self.fetchCharacters(offset: 0)
     }
 }

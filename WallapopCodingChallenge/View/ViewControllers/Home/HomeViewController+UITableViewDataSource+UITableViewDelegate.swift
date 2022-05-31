@@ -32,7 +32,7 @@ extension HomeViewController: UITableViewDataSource {
 extension HomeViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         push(.detailViewController(catalogDetailViewModel: CatalogDetailViewModel(
-            marvelService: catalogViewModel.catalogTableViewCellViewModel(for: indexPath).marvelService, marvelCharacter: catalogViewModel.catalogTableViewCellViewModel(for: indexPath).marvelCharacter), marvelImage: 
+            marvelService: catalogViewModel.catalogTableViewCellViewModel(for: indexPath).marvelService, marvelCharacter: catalogViewModel.catalogTableViewCellViewModel(for: indexPath).marvelCharacter)
         ))
     }
 }

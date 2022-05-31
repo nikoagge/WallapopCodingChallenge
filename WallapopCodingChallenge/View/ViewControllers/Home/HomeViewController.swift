@@ -9,7 +9,7 @@ import UIKit
 
 class HomeViewController: UIViewController, NavigableViewController {
     var containerView = UIView.newViewSetForAutoLayout()
-    var stackViewNotFound = UIStackView.newViewSetForAutoLayout()
+    var notFoundContainerView = UIView.newViewSetForAutoLayout()
     var imageViewNotFound = UIImageView.newViewSetForAutoLayout()
     var labelNotFound = UILabel.newViewSetForAutoLayout()
     var marvelCharactersTableView = UITableView.newViewSetForAutoLayout()

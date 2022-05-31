@@ -13,6 +13,9 @@ extension HomeViewController {
         setupContainerView()
         setupSearchBar()
         setupMarvelCharactersTableView()
+        setupStackViewNotFoundContainerView()
+        setupImageViewNotFound()
+        setupLabelNotFound()
     }
 }
 
@@ -43,5 +46,37 @@ private extension HomeViewController {
         marvelCharactersTableViewConfiguration()
         containerView.addSubview(marvelCharactersTableView)
         marvelCharactersTableView.fillToSuperview()
+    }
+    
+    func setupStackViewNotFoundContainerView() {
+        marvelCharactersTableView.addSubview(notFoundContainerView)
+        NSLayoutConstraint.activate([
+            notFoundContainerView.leadingAnchor.constraint(equalTo: marvelCharactersTableView.leadingAnchor, constant: 13),
+            notFoundContainerView.topAnchor.constraint(equalTo: marvelCharactersTableView.topAnchor, constant: 13),
+            notFoundContainerView.trailingAnchor.constraint(equalTo: marvelCharactersTableView.trailingAnchor, constant: -13),
+            notFoundContainerView.bottomAnchor.constraint(equalTo: marvelCharactersTableView.bottomAnchor, constant: -13)
+        ])
+    }
+    
+    func setupImageViewNotFound() {
+        imageViewNotFoundConfiguration()
+        notFoundContainerView.addSubview(imageViewNotFound)
+        NSLayoutConstraint.activate([
+            imageViewNotFound.heightAnchor.constraint(equalToConstant: 110),
+            imageViewNotFound.widthAnchor.constraint(equalToConstant: 85),
+            imageViewNotFound.centerXAnchor.constraint(equalTo: notFoundContainerView.centerXAnchor),
+            imageViewNotFound.centerYAnchor.constraint(equalTo: notFoundContainerView.centerYAnchor)
+        ])
+    }
+    
+    func setupLabelNotFound() {
+        labelNotFoundConfiguration()
+        notFoundContainerView.addSubview(labelNotFound)
+        NSLayoutConstraint.activate([
+            labelNotFound.leadingAnchor.constraint(equalTo: notFoundContainerView.safeAreaLayoutGuide.leadingAnchor, constant: 13),
+            labelNotFound.topAnchor.constraint(equalTo: imageViewNotFound.bottomAnchor, constant: 13),
+            labelNotFound.trailingAnchor.constraint(equalTo: notFoundContainerView.safeAreaLayoutGuide.trailingAnchor, constant: -13),
+            labelNotFound.bottomAnchor.constraint(equalTo: notFoundContainerView.bottomAnchor, constant: -13)
+        ])
     }
 }
