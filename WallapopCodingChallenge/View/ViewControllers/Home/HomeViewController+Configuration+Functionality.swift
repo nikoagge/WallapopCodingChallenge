@@ -46,13 +46,6 @@ extension HomeViewController {
         }
     }
     
-    func stackViewNotFoundConfiguration() {
-        stackViewNotFound.axis = .vertical
-        stackViewNotFound.alignment = .fill
-        stackViewNotFound.distribution = .fill
-        stackViewNotFound.spacing = 8
-    }
-    
     func imageViewNotFoundConfiguration() {
         imageViewNotFound.image = UIImage(named: "sad")
         imageViewNotFound.contentMode = .scaleAspectFit
