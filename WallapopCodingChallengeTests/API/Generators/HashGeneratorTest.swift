@@ -10,7 +10,7 @@ import XCTest
 
 class HashGeneratorTest: XCTestCase {
     let publicKey = "2357235hsog2323"
-    let privateKey = "23523nfsudgi3"
+    let privateKey = "23523nfsudgafas"
     let ts = "1573178292224.2952"
     
     func testShouldGenerateHash() {
