@@ -1,0 +1,6 @@
+framework module Pods_WallapopCodingChallengeUITests {
+  umbrella header "Pods-WallapopCodingChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

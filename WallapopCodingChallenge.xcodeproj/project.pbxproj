@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015B0D0F2B6DEA7A243B75FE /* Pods_WallapopCodingChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F758B6454BC412D5898875 /* Pods_WallapopCodingChallengeUITests.framework */; };
 		17104A61283E907200DAAFC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A60283E907200DAAFC1 /* AppDelegate.swift */; };
 		17104A65283E907200DAAFC1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A64283E907200DAAFC1 /* HomeViewController.swift */; };
 		17104A6A283E907400DAAFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17104A69283E907400DAAFC1 /* Assets.xcassets */; };
@@ -57,8 +58,7 @@
 		17E8F8D6283FD78D00B69A8E /* APIConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 17E8F8D5283FD78D00B69A8E /* APIConfiguration.json */; };
 		17E8F8D8283FD7AA00B69A8E /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F8D7283FD7AA00B69A8E /* APIConfiguration.swift */; };
 		17E8F8DA283FE21800B69A8E /* APIParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F8D9283FE21800B69A8E /* APIParameters.swift */; };
-		1C70702C97EA2AA4DEC350CC /* libPods-WallapopCodingChallengeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F30420493BC2B689157DD6BB /* libPods-WallapopCodingChallengeUITests.a */; };
-		371EAD8A5457A3C23AA2AFD6 /* libPods-WallapopCodingChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 666493A7843A4CD4933B3EAC /* libPods-WallapopCodingChallengeTests.a */; };
+		21805DA9320C19A51F7A8497 /* Pods_WallapopCodingChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45FB4ADA5697BD323816791 /* Pods_WallapopCodingChallengeTests.framework */; };
 		A9B0097E6FAC3D4D0F68323F /* Pods_WallapopCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DC6116309D09AF876D73AC /* Pods_WallapopCodingChallenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -136,13 +136,13 @@
 		17E8F8D7283FD7AA00B69A8E /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
 		17E8F8D9283FE21800B69A8E /* APIParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIParameters.swift; sourceTree = "<group>"; };
 		4711E53BD1F2A9A048751D3D /* Pods-WallapopCodingChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallapopCodingChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-WallapopCodingChallengeUITests/Pods-WallapopCodingChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
-		666493A7843A4CD4933B3EAC /* libPods-WallapopCodingChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WallapopCodingChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		788E3516FC77AD6200C2F17D /* Pods-WallapopCodingChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallapopCodingChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-WallapopCodingChallengeTests/Pods-WallapopCodingChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6F758B6454BC412D5898875 /* Pods_WallapopCodingChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallapopCodingChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3360FE0419CA5FE0306B0A /* Pods-WallapopCodingChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallapopCodingChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-WallapopCodingChallengeUITests/Pods-WallapopCodingChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0A3E0C36E4668FD3C52F8AB /* Pods-WallapopCodingChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallapopCodingChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-WallapopCodingChallengeTests/Pods-WallapopCodingChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		D45FB4ADA5697BD323816791 /* Pods_WallapopCodingChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallapopCodingChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DC6116309D09AF876D73AC /* Pods_WallapopCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallapopCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED047D1FBDA0EEDCFE08FD5 /* Pods-WallapopCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallapopCodingChallenge.debug.xcconfig"; path = "Target Support Files/Pods-WallapopCodingChallenge/Pods-WallapopCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		F30420493BC2B689157DD6BB /* libPods-WallapopCodingChallengeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WallapopCodingChallengeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				371EAD8A5457A3C23AA2AFD6 /* libPods-WallapopCodingChallengeTests.a in Frameworks */,
+				21805DA9320C19A51F7A8497 /* Pods_WallapopCodingChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C70702C97EA2AA4DEC350CC /* libPods-WallapopCodingChallengeUITests.a in Frameworks */,
+				015B0D0F2B6DEA7A243B75FE /* Pods_WallapopCodingChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,8 +452,8 @@
 			isa = PBXGroup;
 			children = (
 				E0DC6116309D09AF876D73AC /* Pods_WallapopCodingChallenge.framework */,
-				666493A7843A4CD4933B3EAC /* libPods-WallapopCodingChallengeTests.a */,
-				F30420493BC2B689157DD6BB /* libPods-WallapopCodingChallengeUITests.a */,
+				D45FB4ADA5697BD323816791 /* Pods_WallapopCodingChallengeTests.framework */,
+				C6F758B6454BC412D5898875 /* Pods_WallapopCodingChallengeUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -488,6 +488,7 @@
 				17104A6F283E907500DAAFC1 /* Sources */,
 				17104A70283E907500DAAFC1 /* Frameworks */,
 				17104A71283E907500DAAFC1 /* Resources */,
+				FCF7E84CA2F4AB0BE1BDE574 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -507,6 +508,7 @@
 				17104A79283E907500DAAFC1 /* Sources */,
 				17104A7A283E907500DAAFC1 /* Frameworks */,
 				17104A7B283E907500DAAFC1 /* Resources */,
+				8FBD450F50DB66C5B46A9CB1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -655,6 +657,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8FBD450F50DB66C5B46A9CB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WallapopCodingChallengeUITests/Pods-WallapopCodingChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WallapopCodingChallengeUITests/Pods-WallapopCodingChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WallapopCodingChallengeUITests/Pods-WallapopCodingChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D2CBB4C6418C37195844C146 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -670,6 +689,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WallapopCodingChallenge/Pods-WallapopCodingChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCF7E84CA2F4AB0BE1BDE574 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WallapopCodingChallengeTests/Pods-WallapopCodingChallengeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WallapopCodingChallengeTests/Pods-WallapopCodingChallengeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WallapopCodingChallengeTests/Pods-WallapopCodingChallengeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

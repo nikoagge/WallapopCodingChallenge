@@ -1,18 +1,32 @@
-# Uncomment the next line to define a global platform for your project
 platform :ios, '13.0'
 
-target 'WallapopCodingChallenge' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for WallapopCodingChallenge
-  pod 'Alamofire', '~> 5.6.1'
+def common_pods
+    use_frameworks!
+    pod 'Alamofire', '~> 4.4'
+    pod 'Kingfisher', '~> 4.8'
 end
-  target 'WallapopCodingChallengeTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
-  target 'WallapopCodingChallengeUITests' do
-    # Pods for testing
-  end
+target 'WallapopCodingChallenge' do
+	common_pods
+end
+
+target 'WallapopCodingChallengeTests' do
+	common_pods
+end
+
+target 'WallapopCodingChallengeUITests' do
+	common_pods
+end
+
+post_install do |installer|
+    
+    # Disable code coverage for all Pods and Pods Project
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['CLANG_ENABLE_CODE_COVERAGE'] = 'NO'
+        end
+    end
+    installer.pods_project.build_configurations.each do |config|
+        config.build_settings['CLANG_ENABLE_CODE_COVERAGE'] = 'NO'
+    end
+end
