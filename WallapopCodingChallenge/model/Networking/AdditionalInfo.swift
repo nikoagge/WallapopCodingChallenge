@@ -1,0 +1,41 @@
+//
+//  AdditionalInfo.swift
+//  WallapopCodingChallenge
+//
+//  Created by Nikos Aggelidis on 5/6/22.
+//
+
+import Foundation
+
+struct AdditionalInfo: Decodable {
+    var name: String
+    var description: String
+    var issueNumber: Int
+    var comicImages: [MarvelImage]
+    var thumbnail: MarvelImage
+    
+    enum CodingKeys: String, CodingKey {
+        case name = "title"
+        case description
+        case issueNumber
+        case thumbnail
+        case images
+    }
+    
+    init() {
+        name = ""
+        description = ""
+        issueNumber = 0
+        comicImages = []
+        thumbnail = MarvelImage()
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        thumbnail = try container.decodeIfPresent(MarvelImage.self, forKey: .thumbnail) ?? MarvelImage()
+        name = try container.decodeIfPresent(String.self, forKey: .name) ?? ""
+        description = try container.decodeIfPresent(String.self, forKey: .description) ?? ""
+        comicImages = try container.decodeIfPresent([MarvelImage].self, forKey: .images) ?? []
+        issueNumber = try container.decodeIfPresent(Int.self, forKey: .issueNumber) ?? 0
+    }
+}

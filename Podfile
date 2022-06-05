@@ -2,8 +2,9 @@ platform :ios, '13.0'
 
 def common_pods
     use_frameworks!
-    pod 'Alamofire', '~> 4.4'
-    pod 'Kingfisher', '~> 4.8'
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'Moya/RxSwift', '~> 14.0'
 end
 
 target 'WallapopCodingChallenge' do

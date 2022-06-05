@@ -13,7 +13,6 @@ struct NavigationItem {
         case viewControllers(viewControllers: [UIViewController])
         case viewController(viewController: UIViewController)
         case splashScreen
-        case charactersListViewController(characterViewModel: CharacterViewModelProtocol?)
     }
 
     enum NavigationStyle {
@@ -21,7 +20,6 @@ struct NavigationItem {
         case presentWithinNavigation(animated: Bool, hidesBottomBar: Bool)
         case push(animated: Bool)
         case replace(animated: Bool)
-        case setInitialNavigationRootControllers(animated: Bool)
     }
 
     let pageType: PageType

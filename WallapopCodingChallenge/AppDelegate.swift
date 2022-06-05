@@ -13,7 +13,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var initialNavigationController: UINavigationController!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        showInitialScreen()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        if let window = window {
+            let domain = Bundle.main.bundleIdentifier!
+            UserDefaults.standard.removePersistentDomain(forName: domain)
+            UserDefaults.standard.synchronize()
+            _ = FlowStartingPoint(with: window)
+        }
         
         return true
     }

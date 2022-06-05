@@ -1,0 +1,20 @@
+//
+//  MarvelCharacterViewModelProtocol.swift
+//  WallapopCodingChallenge
+//
+//  Created by Nikos Aggelidis on 5/6/22.
+//
+
+import Foundation
+import RxSwift
+import RxCocoa
+
+protocol MarvelCharacterViewModelProtocol {
+    var character: Character { get set }
+    var wikiUrl: String { get }
+    
+    func getComicsInfo() -> Observable<[AdditionalInfo]>
+    func getAdditionalInfo() -> Observable<Void>
+    func getSeries() -> Observable<Void>
+    func showExternalInfo(with url: String, navigation: UINavigationController?)
+}

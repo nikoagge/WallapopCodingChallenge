@@ -8,9 +8,13 @@
 import UIKit
 
 extension UIColor {
-    static let labelNotFoundTextColor = UIColor(named: "labelNotFoundTextColor") ?? .black
-    static let splashScreenBackgroundColor = UIColor(named: "splashScreenBackgroundColor") ?? .red
-    static let comicPinkColor = UIColor(named: "comicPinkColor") ?? .systemPink
-    static let comicYellowColor = UIColor(named: "comicYellowColor") ?? .yellow
-    static let comicBlueColor = UIColor(named: "comicBlueColor") ?? .yellow
+    static let splashScreenBackground = UIColor(named: "splashScreenBackground") ?? UIColor()
+    static var primary = UIColor(named: "primary") ?? UIColor()
+    static var deepBlue = UIColor(named: "deepBlue") ?? UIColor()
+    static var customGold = UIColor(named: "customGold") ?? UIColor()
+    static var cleanGreen = UIColor(named: "cleanGreen") ?? UIColor()
+    static var background = UIColor(named: "background") ?? UIColor()
+    static var borders = UIColor(named: "borders") ?? UIColor()
+    static var favoriteRed = UIColor(named: "favoriteRed") ?? UIColor()
+    static var primerGold = UIColor(named: "primerGold") ?? UIColor()
 }

@@ -5,18 +5,45 @@
 //  Created by Nikos Aggelidis on 28/5/22.
 //
 
-import Foundation
-import Alamofire
+import UIKit
+
+let imageCache = NSCache<NSString, UIImage>()
 
 extension UIImageView {
-    func download(from url: String, onCompletion: ((UIImage?) -> Void)? = nil) {
-//        AF.request(url).responseData { (response) in
-//            guard let data = response.data else { return }
-//            self.image = UIImage(data: data)
-//            
-//            if let onCompletion = onCompletion {
-//                onCompletion(self.image)
-//            }
-//        }
+    func loadImage(with image: MarvelImage, size: ImageSize) -> URLSessionTask?  {
+        let urlString = image.path + "/\(size.rawValue)." + image.extension
+        let url = URL(string: urlString)
+        if url == nil { return nil }
+        self.image = nil
+        
+        if let cachedImage = imageCache.object(forKey: urlString as NSString)  {
+            self.image = cachedImage
+            return nil
+        }
+        
+        let loaderColor = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.medium)
+        let activityIndicator: UIActivityIndicatorView = loaderColor
+        addSubview(activityIndicator)
+        activityIndicator.startAnimating()
+        activityIndicator.center = self.center
+        
+        let task = URLSession.shared.dataTask(with: url ?? URL(fileURLWithPath: ""), completionHandler: { (data, response, error) in
+            if error != nil {
+                print(error ?? "")
+                return
+            }
+            
+            if let data = data,
+               let image = UIImage(data: data) {
+                DispatchQueue.main.async {
+                    imageCache.setObject(image, forKey: urlString as NSString)
+                    self.image = image
+                    activityIndicator.removeFromSuperview()
+                }
+            }
+        })
+        task.resume()
+        
+        return task
     }
 }

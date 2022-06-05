@@ -21,10 +21,6 @@ extension NavigableViewController {
         case .viewControllers(let viewControllers): controllersToInitialNavigation = viewControllers
         case .viewController(let viewController): controllerToNavigate = viewController
         case .splashScreen: controllerToNavigate = StoryboardType.splashScreen.getController(SplashScreenViewController.self)
-        case .charactersListViewController(let characterViewModel):
-            controllerToNavigate = StoryboardType.main.getController(CharactersListViewController.self) { charactersListViewController in
-                charactersListViewController.characterViewModel = characterViewModel
-            }
         }
 
         if let controllerToNavigate = controllerToNavigate {
@@ -52,18 +48,11 @@ extension NavigableViewController {
                     viewControllers.append(controllerToNavigate)
                     self.navigationController?.setViewControllers(viewControllers, animated: animated)
                 }
-                
-            case .setInitialNavigationRootControllers(let animated):
-                Constants.appDelegate.initialNavigationController.setViewControllers(controllersToInitialNavigation, animated: animated)
             }
         }
     }
 
     func push(_ pageType: NavigationItem.PageType) {
         navigate(NavigationItem(pageType: pageType, navigationStyle: .push(animated: true)))
-    }
-    
-    func setInitialNavigationRootControllers(_ pageType: NavigationItem.PageType, animated: Bool = true) {
-        navigate(NavigationItem(pageType: pageType, navigationStyle: .setInitialNavigationRootControllers(animated: animated)))
     }
 }

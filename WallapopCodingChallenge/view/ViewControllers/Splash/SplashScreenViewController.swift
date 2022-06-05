@@ -6,15 +6,12 @@
 //
 
 import UIKit
+import Moya
 
-class SplashScreenViewController: UIViewController, NavigableViewController {
-
+class SplashScreenViewController: UIViewController {
+    var provider: MoyaProvider<MarvelProvider> =  MoyaProvider<MarvelProvider>()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let characterViewModel = CharacterViewModel()
-        NetworkService.shared.alamofireWrapper = AlamofireWrapper()
-        characterViewModel.networkService = NetworkService.shared
-        navigate(.init(pageType: .charactersListViewController(characterViewModel: characterViewModel), navigationStyle: .setInitialNavigationRootControllers(animated: true)))
     }
 }
