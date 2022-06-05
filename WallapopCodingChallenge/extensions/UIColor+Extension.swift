@@ -9,4 +9,5 @@ import UIKit
 
 extension UIColor {
     static let labelNotFoundTextColor = UIColor(named: "labelNotFoundTextColor") ?? .black
+    static let launchScreenBackgroundColor = UIColor(named: "launchScreenBackgroundColor") ?? .red
 }

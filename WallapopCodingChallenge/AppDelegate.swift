@@ -10,9 +10,10 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
+    var initialNavigationController: UINavigationController!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        showHomeViewController()
+        showInitialScreen()
         
         return true
     }
@@ -20,14 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 // MARK: - Functionality
 private extension AppDelegate {
-    func showHomeViewController() {
+    func showInitialScreen() {
+        let splashScreenViewController = StoryboardType.splashScreen.getController(SplashScreenViewController.self)!
         window = UIWindow()
-        let homeViewController = HomeViewController(with: CatalogViewModel(
-            marvelService: MarvelService(
-                apiConfiguration: APIConfiguration.shared
-            )
-        ))
-        window?.rootViewController = UINavigationController(rootViewController: homeViewController)
+        initialNavigationController = UINavigationController(rootViewController: splashScreenViewController)
+        window?.rootViewController = initialNavigationController
         window?.makeKeyAndVisible()
     }
 }

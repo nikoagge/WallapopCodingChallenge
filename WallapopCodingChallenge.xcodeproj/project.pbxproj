@@ -11,7 +11,6 @@
 		17104A61283E907200DAAFC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A60283E907200DAAFC1 /* AppDelegate.swift */; };
 		17104A65283E907200DAAFC1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A64283E907200DAAFC1 /* HomeViewController.swift */; };
 		17104A6A283E907400DAAFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17104A69283E907400DAAFC1 /* Assets.xcassets */; };
-		17104A6D283E907400DAAFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17104A6B283E907400DAAFC1 /* LaunchScreen.storyboard */; };
 		17104A78283E907500DAAFC1 /* WallapopCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A77283E907500DAAFC1 /* WallapopCodingChallengeTests.swift */; };
 		17104A82283E907500DAAFC1 /* WallapopCodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A81283E907500DAAFC1 /* WallapopCodingChallengeUITests.swift */; };
 		17104A84283E907500DAAFC1 /* WallapopCodingChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A83283E907500DAAFC1 /* WallapopCodingChallengeUITestsLaunchTests.swift */; };
@@ -42,6 +41,10 @@
 		17153CEE284284DD00D91A0B /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17153CED284284DD00D91A0B /* UIImageView+Extension.swift */; };
 		17153CF0284291A100D91A0B /* HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17153CEF284291A100D91A0B /* HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift */; };
 		1732C79B2846672D0032E1C6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1732C79A2846672D0032E1C6 /* UIColor+Extension.swift */; };
+		173FE83E284C7EF500723F58 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173FE83D284C7EF500723F58 /* Constants.swift */; };
+		173FE840284C806300723F58 /* StoryboardType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173FE83F284C806300723F58 /* StoryboardType+Extension.swift */; };
+		173FE842284C821900723F58 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173FE841284C821900723F58 /* SplashScreen.storyboard */; };
+		173FE844284C851400723F58 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173FE843284C851400723F58 /* SplashScreenViewController.swift */; };
 		1783AA162843726800CD04FC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783AA152843726800CD04FC /* DetailViewController.swift */; };
 		17BCECB628437A85008248B5 /* DetailViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCECB528437A85008248B5 /* DetailViewController+UI.swift */; };
 		17BCECB828437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCECB728437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift */; };
@@ -85,7 +88,6 @@
 		17104A60283E907200DAAFC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17104A64283E907200DAAFC1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		17104A69283E907400DAAFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		17104A6C283E907400DAAFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17104A73283E907500DAAFC1 /* WallapopCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallapopCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17104A77283E907500DAAFC1 /* WallapopCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallapopCodingChallengeTests.swift; sourceTree = "<group>"; };
 		17104A7D283E907500DAAFC1 /* WallapopCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallapopCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,10 @@
 		17153CED284284DD00D91A0B /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		17153CEF284291A100D91A0B /* HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UISearchControllerDelegate+UISearchBarDelegate+UISearchResultsUpdating.swift"; sourceTree = "<group>"; };
 		1732C79A2846672D0032E1C6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		173FE83D284C7EF500723F58 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		173FE83F284C806300723F58 /* StoryboardType+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StoryboardType+Extension.swift"; sourceTree = "<group>"; };
+		173FE841284C821900723F58 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		173FE843284C851400723F58 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 		1783AA1028435CCF00CD04FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1783AA152843726800CD04FC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		17BCECB528437A85008248B5 /* DetailViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+UI.swift"; sourceTree = "<group>"; };
@@ -200,15 +206,15 @@
 			children = (
 				17E8F8D1283FD62200B69A8E /* API */,
 				17153CC628421A8A00D91A0B /* Enums */,
-				17153CD72842317B00D91A0B /* Extensions */,
+				17153CD72842317B00D91A0B /* extensions */,
 				17BCECB928437C2E008248B5 /* Managers */,
 				17104A95283E9D2E00DAAFC1 /* Model */,
-				17104A94283E9D2900DAAFC1 /* View */,
+				17104A94283E9D2900DAAFC1 /* view */,
 				17104A93283E9D2300DAAFC1 /* ViewModel */,
 				17104A90283E9C9500DAAFC1 /* Resources */,
 				17104A60283E907200DAAFC1 /* AppDelegate.swift */,
-				17104A6B283E907400DAAFC1 /* LaunchScreen.storyboard */,
 				1783AA1028435CCF00CD04FC /* Info.plist */,
+				173FE83D284C7EF500723F58 /* Constants.swift */,
 			);
 			path = WallapopCodingChallenge;
 			sourceTree = "<group>";
@@ -252,13 +258,13 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		17104A94283E9D2900DAAFC1 /* View */ = {
+		17104A94283E9D2900DAAFC1 /* view */ = {
 			isa = PBXGroup;
 			children = (
 				17153CEA2842718900D91A0B /* TableViewCells */,
 				17153CDA284233B000D91A0B /* ViewControllers */,
 			);
-			path = View;
+			path = view;
 			sourceTree = "<group>";
 		};
 		17104A95283E9D2E00DAAFC1 /* Model */ = {
@@ -311,9 +317,10 @@
 			path = Enums;
 			sourceTree = "<group>";
 		};
-		17153CD72842317B00D91A0B /* Extensions */ = {
+		17153CD72842317B00D91A0B /* extensions */ = {
 			isa = PBXGroup;
 			children = (
+				173FE83F284C806300723F58 /* StoryboardType+Extension.swift */,
 				17153CD82842318C00D91A0B /* String+Extension.swift */,
 				1732C79A2846672D0032E1C6 /* UIColor+Extension.swift */,
 				17BCECC028439336008248B5 /* UIFont+Extension.swift */,
@@ -321,7 +328,7 @@
 				17153CED284284DD00D91A0B /* UIImageView+Extension.swift */,
 				17153CE12842530900D91A0B /* UIView+Extension.swift */,
 			);
-			path = Extensions;
+			path = extensions;
 			sourceTree = "<group>";
 		};
 		17153CDA284233B000D91A0B /* ViewControllers */ = {
@@ -329,6 +336,7 @@
 			children = (
 				1783AA142843711300CD04FC /* Detail */,
 				17153CE3284267ED00D91A0B /* Home */,
+				1733E2A4284BF9DF000B1EDF /* Splash */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -361,6 +369,15 @@
 				17D0489C2846AF6800759E6E /* UIView+ExtensionTest.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1733E2A4284BF9DF000B1EDF /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				173FE841284C821900723F58 /* SplashScreen.storyboard */,
+				173FE843284C851400723F58 /* SplashScreenViewController.swift */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 		1783AA142843711300CD04FC /* Detail */ = {
@@ -568,9 +585,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17104A6D283E907400DAAFC1 /* LaunchScreen.storyboard in Resources */,
 				17104A6A283E907400DAAFC1 /* Assets.xcassets in Resources */,
 				17E8F8D6283FD78D00B69A8E /* APIConfiguration.json in Resources */,
+				173FE842284C821900723F58 /* SplashScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,6 +733,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17153CEE284284DD00D91A0B /* UIImageView+Extension.swift in Sources */,
+				173FE844284C851400723F58 /* SplashScreenViewController.swift in Sources */,
 				17153CDC284233CE00D91A0B /* CatalogViewModel.swift in Sources */,
 				17E8F8DA283FE21800B69A8E /* APIParameters.swift in Sources */,
 				17153CD92842318C00D91A0B /* String+Extension.swift in Sources */,
@@ -724,11 +742,13 @@
 				17BCECC128439336008248B5 /* UIFont+Extension.swift in Sources */,
 				17153CCE28421F6700D91A0B /* Stories.swift in Sources */,
 				17BCECB828437B5D008248B5 /* DetailViewController+Configuration+Functionality.swift in Sources */,
+				173FE840284C806300723F58 /* StoryboardType+Extension.swift in Sources */,
 				17153CC328420E2A00D91A0B /* MarvelCharacter.swift in Sources */,
 				17153CC528421A3300D91A0B /* Thumbnail.swift in Sources */,
 				17153CC828421CCF00D91A0B /* ThumbnailType.swift in Sources */,
 				17104A65283E907200DAAFC1 /* HomeViewController.swift in Sources */,
 				17BCECBF28437D8D008248B5 /* NavigableViewController.swift in Sources */,
+				173FE83E284C7EF500723F58 /* Constants.swift in Sources */,
 				17153CC128420B6300D91A0B /* MarvelData.swift in Sources */,
 				17153CE5284267FF00D91A0B /* HomeViewController+UI.swift in Sources */,
 				17104A61283E907200DAAFC1 /* AppDelegate.swift in Sources */,
@@ -793,17 +813,6 @@
 			targetProxy = 17104A7E283E907500DAAFC1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		17104A6B283E907400DAAFC1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17104A6C283E907400DAAFC1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		17104A85283E907500DAAFC1 /* Debug */ = {
@@ -931,7 +940,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WallapopCodingChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -959,7 +968,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WallapopCodingChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;

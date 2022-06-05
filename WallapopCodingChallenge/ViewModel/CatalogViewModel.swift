@@ -43,19 +43,19 @@ class CatalogViewModel {
             marvelCharacters = []
         }
         
-        marvelService.getMarvelCharacters(offset: offset, name: name) { (result) in
-            if let value = result.value {
-                self.marvelData = value.marvelData
-                self.marvelCharacters += value.marvelData.marvelCharacters.filter { (marvelCharacter) -> Bool in
-                    return !marvelCharacter.thumbnail.path.contains("image_not_available")
-                }
-            }
-            onCompletion()
-        }
+//        marvelService.getMarvelCharacters(offset: offset, name: name) { (result) in
+//            if let value = result.value {
+//                self.marvelData = value.marvelData
+//                self.marvelCharacters += value.marvelData.marvelCharacters.filter { (marvelCharacter) -> Bool in
+//                    return !marvelCharacter.thumbnail.path.contains("image_not_available")
+//                }
+//            }
+//            onCompletion()
+//        }
     }
     
     func fetchMarvelCharactersByName(name: String, onCompletion: @escaping () -> Void) {
-        self.marvelCharacters = []
-        self.fetchMarvelCharacters(offset: 0, name: name, onCompletion: onCompletion)
+//        self.marvelCharacters = []
+//        self.fetchMarvelCharacters(offset: 0, name: name, onCompletion: onCompletion)
     }
 }

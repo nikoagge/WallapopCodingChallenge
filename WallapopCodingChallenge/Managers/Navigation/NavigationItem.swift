@@ -12,6 +12,8 @@ struct NavigationItem {
     enum PageType {
         case viewControllers(viewControllers: [UIViewController])
         case viewController(viewController: UIViewController)
+        case splashScreen
+        case homeViewController
         case detailViewController(catalogDetailViewModel: CatalogDetailViewModel)
     }
 
@@ -20,6 +22,7 @@ struct NavigationItem {
         case presentWithinNavigation(animated: Bool, hidesBottomBar: Bool)
         case push(animated: Bool)
         case replace(animated: Bool)
+        case setInitialNavigationRootControllers(animated: Bool)
     }
 
     let pageType: PageType

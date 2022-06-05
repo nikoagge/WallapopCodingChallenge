@@ -18,11 +18,10 @@ class HomeViewController: UIViewController, NavigableViewController {
     let activityIndicator = UIActivityIndicatorView(style: .large)
     let searchController = UISearchController(searchResultsController: nil)
     
-    init(with catalogViewModel: CatalogViewModel) {
+    init() {
         super.init(nibName: nil, bundle: nil)
         
-        self.catalogViewModel = catalogViewModel
-        fetchCharacters(offset: 0)
+        view.backgroundColor = .yellow
     }
     
     @available(*, unavailable)
@@ -33,6 +32,7 @@ class HomeViewController: UIViewController, NavigableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        setupUI()
+//        setupUI()
+//        view.backgroundColor = .yellow
     }
 }
