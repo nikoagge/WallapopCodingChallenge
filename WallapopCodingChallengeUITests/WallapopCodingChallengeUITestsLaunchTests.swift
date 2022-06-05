@@ -8,7 +8,6 @@
 import XCTest
 
 class WallapopCodingChallengeUITestsLaunchTests: XCTestCase {
-
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
