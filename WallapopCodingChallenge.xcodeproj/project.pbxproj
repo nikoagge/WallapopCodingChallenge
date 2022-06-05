@@ -61,6 +61,7 @@
 		17DF032F284D0BEA00715C25 /* MarvelListMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DF032B284D0BEA00715C25 /* MarvelListMock.json */; };
 		17DF0330284D0BEA00715C25 /* MarvelListSearchMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DF032C284D0BEA00715C25 /* MarvelListSearchMock.json */; };
 		17DF033A284D0F9800715C25 /* MarvelKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17DF0339284D0F9800715C25 /* MarvelKeys.plist */; };
+		17DF0344284D3DBB00715C25 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 17DF0343284D3DBB00715C25 /* Documentation.docc */; };
 		21805DA9320C19A51F7A8497 /* Pods_WallapopCodingChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45FB4ADA5697BD323816791 /* Pods_WallapopCodingChallengeTests.framework */; };
 		A9B0097E6FAC3D4D0F68323F /* Pods_WallapopCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DC6116309D09AF876D73AC /* Pods_WallapopCodingChallenge.framework */; };
 /* End PBXBuildFile section */
@@ -141,6 +142,7 @@
 		17DF032B284D0BEA00715C25 /* MarvelListMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MarvelListMock.json; sourceTree = "<group>"; };
 		17DF032C284D0BEA00715C25 /* MarvelListSearchMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MarvelListSearchMock.json; sourceTree = "<group>"; };
 		17DF0339284D0F9800715C25 /* MarvelKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MarvelKeys.plist; sourceTree = "<group>"; };
+		17DF0343284D3DBB00715C25 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		4711E53BD1F2A9A048751D3D /* Pods-WallapopCodingChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallapopCodingChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-WallapopCodingChallengeUITests/Pods-WallapopCodingChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		788E3516FC77AD6200C2F17D /* Pods-WallapopCodingChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallapopCodingChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-WallapopCodingChallengeTests/Pods-WallapopCodingChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6F758B6454BC412D5898875 /* Pods_WallapopCodingChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallapopCodingChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,6 +218,7 @@
 				1783AA1028435CCF00CD04FC /* Info.plist */,
 				17DF0339284D0F9800715C25 /* MarvelKeys.plist */,
 				17DF0321284D046B00715C25 /* FlowStartingPoint.swift */,
+				17DF0343284D3DBB00715C25 /* Documentation.docc */,
 			);
 			path = WallapopCodingChallenge;
 			sourceTree = "<group>";
@@ -772,6 +775,7 @@
 				173FE894284CF84800723F58 /* MarvelCharacterCollectionViewCell.swift in Sources */,
 				17104A61283E907200DAAFC1 /* AppDelegate.swift in Sources */,
 				173FE86F284CBAAC00723F58 /* NSAttributedString+Extension.swift in Sources */,
+				17DF0344284D3DBB00715C25 /* Documentation.docc in Sources */,
 				17DF0310284CFB9100715C25 /* MainCharacterInfoCollectionViewCell.swift in Sources */,
 				17153CCA28421D0200D91A0B /* ComicModel.swift in Sources */,
 				17DF0322284D046B00715C25 /* FlowStartingPoint.swift in Sources */,
