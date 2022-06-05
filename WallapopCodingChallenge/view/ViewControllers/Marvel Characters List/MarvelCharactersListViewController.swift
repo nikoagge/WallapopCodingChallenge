@@ -36,6 +36,8 @@ final class MarvelCharactersListViewController: UIViewController {
         self.marvelCharactersListViewModelProtocol = marvelCharactersListViewModelProtocol
         
         super.init(nibName: nil, bundle: nil)
+        
+//        view.backgroundColor = .yellow
     }
     
     required init?(coder: NSCoder) {

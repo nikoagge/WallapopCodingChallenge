@@ -7,16 +7,24 @@ def common_pods
     pod 'Moya/RxSwift', '~> 14.0'
 end
 
+def common_pods_for_testing
+    use_frameworks!
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'Moya/RxSwift', '~> 14.0'
+    pod 'iOSSnapshotTestCase'
+end
+
 target 'WallapopCodingChallenge' do
 	common_pods
 end
 
 target 'WallapopCodingChallengeTests' do
-	common_pods
+	common_pods_for_testing
 end
 
 target 'WallapopCodingChallengeUITests' do
-	common_pods
+	common_pods_for_testing
 end
 
 post_install do |installer|

@@ -6,13 +6,15 @@
 //
 
 import XCTest
+import FBSnapshotTestCase
 import Foundation
 import Moya
 import RxCocoa
 import RxSwift
+
 @testable import WallapopCodingChallenge
 
-class MarvelCharactersListTests: XCTestCase {
+class MarvelCharactersListTests: FBSnapshotTestCase {
     
     private var navigation: UINavigationController? = UINavigationController()
     private var viewModel: MarvelCharactersListViewModelProtocol?
@@ -87,6 +89,7 @@ class MarvelCharactersListTests: XCTestCase {
         }
         
         let sut = MarvelCharactersListViewController(with: vm)
+        test_backgroundColor(for: sut)
         navigation?.setViewControllers([sut], animated: true)
         
         guard let collectionView: UICollectionView = Mirror(reflecting: sut)
@@ -94,6 +97,10 @@ class MarvelCharactersListTests: XCTestCase {
                 return
         }
         XCTAssertEqual(collectionView.visibleCells.count, 20)
+    }
+    
+    func test_backgroundColor(for sut: UIViewController) {
+        FBSnapshotVerifyView(sut.view)
     }
     
     override func tearDown() {

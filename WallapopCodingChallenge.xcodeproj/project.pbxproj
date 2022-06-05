@@ -60,8 +60,6 @@
 		17DF032E284D0BEA00715C25 /* MarvelComicsMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DF032A284D0BEA00715C25 /* MarvelComicsMock.json */; };
 		17DF032F284D0BEA00715C25 /* MarvelListMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DF032B284D0BEA00715C25 /* MarvelListMock.json */; };
 		17DF0330284D0BEA00715C25 /* MarvelListSearchMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DF032C284D0BEA00715C25 /* MarvelListSearchMock.json */; };
-		17DF0332284D0C0200715C25 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17DF0331284D0C0200715C25 /* Info.plist */; };
-		17DF0334284D0C3E00715C25 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17DF0333284D0C3E00715C25 /* Info.plist */; };
 		17DF033A284D0F9800715C25 /* MarvelKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17DF0339284D0F9800715C25 /* MarvelKeys.plist */; };
 		21805DA9320C19A51F7A8497 /* Pods_WallapopCodingChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45FB4ADA5697BD323816791 /* Pods_WallapopCodingChallengeTests.framework */; };
 		A9B0097E6FAC3D4D0F68323F /* Pods_WallapopCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DC6116309D09AF876D73AC /* Pods_WallapopCodingChallenge.framework */; };
@@ -142,8 +140,6 @@
 		17DF032A284D0BEA00715C25 /* MarvelComicsMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MarvelComicsMock.json; sourceTree = "<group>"; };
 		17DF032B284D0BEA00715C25 /* MarvelListMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MarvelListMock.json; sourceTree = "<group>"; };
 		17DF032C284D0BEA00715C25 /* MarvelListSearchMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MarvelListSearchMock.json; sourceTree = "<group>"; };
-		17DF0331284D0C0200715C25 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17DF0333284D0C3E00715C25 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17DF0339284D0F9800715C25 /* MarvelKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MarvelKeys.plist; sourceTree = "<group>"; };
 		4711E53BD1F2A9A048751D3D /* Pods-WallapopCodingChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallapopCodingChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-WallapopCodingChallengeUITests/Pods-WallapopCodingChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		788E3516FC77AD6200C2F17D /* Pods-WallapopCodingChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallapopCodingChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-WallapopCodingChallengeTests/Pods-WallapopCodingChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -229,7 +225,6 @@
 			children = (
 				17DF0323284D0ABD00715C25 /* Tests */,
 				17DF0328284D0BEA00715C25 /* Resources */,
-				17DF0331284D0C0200715C25 /* Info.plist */,
 			);
 			path = WallapopCodingChallengeTests;
 			sourceTree = "<group>";
@@ -239,7 +234,6 @@
 			children = (
 				17104A81283E907500DAAFC1 /* WallapopCodingChallengeUITests.swift */,
 				17104A83283E907500DAAFC1 /* WallapopCodingChallengeUITestsLaunchTests.swift */,
-				17DF0333284D0C3E00715C25 /* Info.plist */,
 			);
 			path = WallapopCodingChallengeUITests;
 			sourceTree = "<group>";
@@ -613,7 +607,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17DF0332284D0C0200715C25 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,7 +614,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17DF0334284D0C3E00715C25 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
