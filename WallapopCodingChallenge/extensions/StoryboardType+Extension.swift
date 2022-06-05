@@ -9,6 +9,7 @@ import UIKit
 
 enum StoryboardType: String {
     case splashScreen = "SplashScreen"
+    case main = "Main"
 }
 
 extension StoryboardType {

@@ -12,6 +12,9 @@ class SplashScreenViewController: UIViewController, NavigableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigate(.init(pageType: .homeViewController, navigationStyle: .setInitialNavigationRootControllers(animated: true)))
+        let characterViewModel = CharacterViewModel()
+        NetworkService.shared.alamofireWrapper = AlamofireWrapper()
+        characterViewModel.networkService = NetworkService.shared
+        navigate(.init(pageType: .charactersListViewController(characterViewModel: characterViewModel), navigationStyle: .setInitialNavigationRootControllers(animated: true)))
     }
 }

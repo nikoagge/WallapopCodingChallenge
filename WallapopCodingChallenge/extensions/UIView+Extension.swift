@@ -36,4 +36,9 @@ extension UIView {
         activityIndicator.stopAnimating()
         activityIndicator.removeFromSuperview()
     }
+    
+    public func setBlackBorder() {
+        self.layer.borderWidth = 1
+        self.layer.borderColor = UIColor.black.cgColor
+    }
 }
