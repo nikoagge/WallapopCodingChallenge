@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		015B0D0F2B6DEA7A243B75FE /* Pods_WallapopCodingChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F758B6454BC412D5898875 /* Pods_WallapopCodingChallengeUITests.framework */; };
+		170AF6952861D0A300070E05 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1783AA1028435CCF00CD04FC /* Info.plist */; };
+		170AF6962861D0AA00070E05 /* MarvelKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17DF0339284D0F9800715C25 /* MarvelKeys.plist */; };
 		17104A61283E907200DAAFC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A60283E907200DAAFC1 /* AppDelegate.swift */; };
 		17104A65283E907200DAAFC1 /* MarvelCharactersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17104A64283E907200DAAFC1 /* MarvelCharactersListViewController.swift */; };
 		17104A6A283E907400DAAFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17104A69283E907400DAAFC1 /* Assets.xcassets */; };
@@ -60,7 +62,6 @@
 		17DF032E284D0BEA00715C25 /* MarvelComicsMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DF032A284D0BEA00715C25 /* MarvelComicsMock.json */; };
 		17DF032F284D0BEA00715C25 /* MarvelListMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DF032B284D0BEA00715C25 /* MarvelListMock.json */; };
 		17DF0330284D0BEA00715C25 /* MarvelListSearchMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DF032C284D0BEA00715C25 /* MarvelListSearchMock.json */; };
-		17DF033A284D0F9800715C25 /* MarvelKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17DF0339284D0F9800715C25 /* MarvelKeys.plist */; };
 		17DF0344284D3DBB00715C25 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 17DF0343284D3DBB00715C25 /* Documentation.docc */; };
 		21805DA9320C19A51F7A8497 /* Pods_WallapopCodingChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45FB4ADA5697BD323816791 /* Pods_WallapopCodingChallengeTests.framework */; };
 		A9B0097E6FAC3D4D0F68323F /* Pods_WallapopCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DC6116309D09AF876D73AC /* Pods_WallapopCodingChallenge.framework */; };
@@ -596,13 +597,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170AF6952861D0A300070E05 /* Info.plist in Resources */,
 				17DF032E284D0BEA00715C25 /* MarvelComicsMock.json in Resources */,
 				17DF032F284D0BEA00715C25 /* MarvelListMock.json in Resources */,
 				17DF0330284D0BEA00715C25 /* MarvelListSearchMock.json in Resources */,
 				17DF032D284D0BEA00715C25 /* MarvelEventMock.json in Resources */,
+				170AF6962861D0AA00070E05 /* MarvelKeys.plist in Resources */,
 				17104A6A283E907400DAAFC1 /* Assets.xcassets in Resources */,
 				173FE842284C821900723F58 /* SplashScreen.storyboard in Resources */,
-				17DF033A284D0F9800715C25 /* MarvelKeys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
